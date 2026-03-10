@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form:</h2>
+
+    <form action="">
+        <fieldset>
+
+            <legend>Limon</legend>
+        <div>
+            <label for="fullName">Full Name: </label><input type="text" name="fullName" id="fullName" required placeholder="Enter your name">
+        </div><br>
+
+         <div>
+            <label for="email">Email: </label><input type="email" name="email" id="email">
+        </div><br>
+
+         <div>
+            <label for="password">Password: </label><input type="password" name="pass" id="pass">
+        </div><br>
+
+         <div>
+            <label for="dob">Date of Birth: </label><input type="date" name="dob" id="dob">
+        </div><br>
+
+         <div>
+            <label for="file">Choose File: </label><input type="file" name="file" id="file">
+        </div><br>
+
+         <div>
+            <label for="gender">Gender: </label><input type="radio" name="gender" id="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+        </div><br>
+
+        <div>
+            <label for="religion">Religion: </label><input checked type="checkbox" name="c1" id="gender" value="male">Muslim
+            <input type="checkbox" name="c1" id="gender" value="female">Hindu
+        </div><br>
+
+        <div>
+            <label for="dept">Dept:</label>
+            <select name="dept" id="dept">
+                <option value="cse">CSE</option>
+                 <option value="eee">EEE</option>
+                  <option value="cee" selected>CEE</option>
+                   <option value="swe">SWE</option>
+                    <option value="eng">ENG</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="msg">Message:</label><br>
+            <textarea name="" id="" cols="30" rows="20" readonly></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+             <input type="reset" value="clear" disabled>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
